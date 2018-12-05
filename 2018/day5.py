@@ -1,8 +1,6 @@
 with open("in5.txt") as file:
     inS=file.read().rstrip()
 
-done=False
-
 def boom(c1,c2):
     if (c1.isupper() and c2.islower()) or (c1.islower() and c2.isupper()):
         if c1.lower()==c2.lower():
